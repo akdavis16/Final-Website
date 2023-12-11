@@ -1,0 +1,48 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+h2 {text-align: center;}
+
+.bg-dark, .bg-light, .bg-primary {--bs-bg-opacity: 1;
+    background-color: #FDF7E4 !important;}
+
+h1 {font-family:'Alegreya', cursive; color: #FF90BC;}
+
+p {color: black; text-align: center;}
+
+.navbar-dark .navbar-brand {color: #FF90BC;}
+
+.navbar-dark .navbar-toggler {
+    color: #FF90BC;
+    border-color: #FF90BC;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: black !important;
+}
+
+a:link { 
+    font-weight: normal; 
+    text-decoration: none; 
+    color: #FF90BC;
+    }
+a:visited { 
+    font-weight: normal; 
+    text-decoration: none; 
+    color: #FF90BC;
+    }
+a:hover, a:focus, a:active { 
+    text-decoration:none; 
+    color: #FF90BC;
+    }
+
